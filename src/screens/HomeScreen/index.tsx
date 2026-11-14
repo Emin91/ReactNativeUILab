@@ -16,11 +16,8 @@ type THomeScreenProps = {
 const HomeScreen: FC<THomeScreenProps> = ({ onSelect }) => {
 	return (
 		<View style={styles.container}>
-			<SafeAreaView edges={["top"]}>
-				<ScrollView
-					showsVerticalScrollIndicator={false}
-					contentContainerStyle={styles.content}
-				>
+			<SafeAreaView style={styles.safeArea} edges={["top", "bottom"]}>
+				<View style={styles.content}>
 					<View style={styles.header}>
 						<Text style={styles.label}>COMPONENT LIBRARY</Text>
 						<Text style={styles.heading}>
@@ -40,7 +37,11 @@ const HomeScreen: FC<THomeScreenProps> = ({ onSelect }) => {
 						</View>
 					</View>
 
-					<View style={styles.list}>
+					<ScrollView
+						style={styles.scroll}
+						showsVerticalScrollIndicator={false}
+						contentContainerStyle={styles.list}
+					>
 						{showcases.map((item, index) => (
 							<Pressable
 								key={item.id}
@@ -65,12 +66,12 @@ const HomeScreen: FC<THomeScreenProps> = ({ onSelect }) => {
 								</View>
 							</Pressable>
 						))}
-					</View>
+					</ScrollView>
 
 					<Text style={styles.footer}>
 						CRAFTED FOR EXPERIMENTATION
 					</Text>
-				</ScrollView>
+				</View>
 			</SafeAreaView>
 		</View>
 	);

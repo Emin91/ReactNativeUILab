@@ -5,10 +5,14 @@ export const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "#101114",
   },
+  safeArea: {
+    flex: 1,
+  },
   content: {
+    flex: 1,
     paddingHorizontal: 20,
     paddingTop: 48,
-    paddingBottom: 50,
+    paddingBottom: 20,
   },
   header: {
     marginBottom: 36,
@@ -59,8 +63,12 @@ export const styles = StyleSheet.create({
     fontWeight: "800",
     letterSpacing: 1,
   },
+  scroll: {
+    flex: 1,
+  },
   list: {
     gap: 12,
+    paddingBottom: 16,
   },
   card: {
     width: "100%",
@@ -100,13 +108,6 @@ export const styles = StyleSheet.create({
     color: "#F2F2F4",
     lineHeight: 21,
   },
-  cardSubtitle: {
-    fontSize: 10,
-    fontWeight: "600",
-    letterSpacing: 1.1,
-    color: "#797C85",
-    marginTop: 6,
-  },
   arrowBox: {
     width: 38,
     height: 38,
@@ -126,6 +127,6 @@ export const styles = StyleSheet.create({
     fontSize: 10,
     fontWeight: "700",
     letterSpacing: 1.5,
-    marginTop: 34,
+    marginTop: 20,
   },
 });
