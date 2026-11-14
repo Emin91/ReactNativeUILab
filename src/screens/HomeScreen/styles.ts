@@ -1,0 +1,131 @@
+import { StyleSheet } from "react-native";
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#101114",
+  },
+  content: {
+    paddingHorizontal: 20,
+    paddingTop: 48,
+    paddingBottom: 50,
+  },
+  header: {
+    marginBottom: 36,
+  },
+  label: {
+    fontSize: 11,
+    fontWeight: "700",
+    letterSpacing: 2,
+    color: "#FF9B4A",
+  },
+  heading: {
+    marginTop: 10,
+    fontSize: 38,
+    fontWeight: "800",
+    letterSpacing: -1.5,
+    color: "#FFFFFF",
+  },
+  accent: {
+    color: "#FF922E",
+  },
+  subtitle: {
+    marginTop: 8,
+    fontSize: 14,
+    color: "#85878F",
+  },
+  sectionHeader: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+    marginBottom: 18,
+  },
+  sectionTitle: {
+    fontSize: 21,
+    fontWeight: "700",
+    color: "#F5F5F5",
+  },
+  countBadge: {
+    backgroundColor: "#2A211A",
+    borderColor: "#493321",
+    borderWidth: 1,
+    paddingHorizontal: 12,
+    paddingVertical: 8,
+    borderRadius: 12,
+  },
+  countText: {
+    color: "#FFA75C",
+    fontSize: 11,
+    fontWeight: "800",
+    letterSpacing: 1,
+  },
+  list: {
+    gap: 12,
+  },
+  card: {
+    width: "100%",
+    minHeight: 88,
+    flexDirection: "row",
+    alignItems: "center",
+    paddingHorizontal: 16,
+    paddingVertical: 16,
+    backgroundColor: "#1C1E22",
+    borderWidth: 1,
+    borderColor: "#303137",
+    borderRadius: 18,
+    gap: 15,
+  },
+  numberBox: {
+    width: 48,
+    height: 48,
+    borderRadius: 14,
+    backgroundColor: "#34261D",
+    borderWidth: 1,
+    borderColor: "#59402C",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  numberText: {
+    fontSize: 16,
+    fontWeight: "800",
+    color: "#FFA65B",
+  },
+  cardContent: {
+    flex: 1,
+    justifyContent: "center",
+  },
+  cardTitle: {
+    fontSize: 15,
+    fontWeight: "700",
+    color: "#F2F2F4",
+    lineHeight: 21,
+  },
+  cardSubtitle: {
+    fontSize: 10,
+    fontWeight: "600",
+    letterSpacing: 1.1,
+    color: "#797C85",
+    marginTop: 6,
+  },
+  arrowBox: {
+    width: 38,
+    height: 38,
+    borderRadius: 12,
+    backgroundColor: "#292B30",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  arrowText: {
+    color: "#FFA65B",
+    fontSize: 22,
+    fontWeight: "500",
+  },
+  footer: {
+    textAlign: "center",
+    color: "#5F626C",
+    fontSize: 10,
+    fontWeight: "700",
+    letterSpacing: 1.5,
+    marginTop: 34,
+  },
+});
