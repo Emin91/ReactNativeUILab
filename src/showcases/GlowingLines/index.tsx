@@ -1,6 +1,4 @@
 
-import React from "react";
-
 import { StyleSheet, useWindowDimensions, View } from "react-native";
 
 import { Canvas } from "@shopify/react-native-skia";

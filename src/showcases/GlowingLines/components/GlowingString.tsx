@@ -1,5 +1,5 @@
 
-import React, { type FC } from "react";
+import { type FC } from "react";
 
 import { BlurMask, Path, type SkPath } from "@shopify/react-native-skia";
 import type { DerivedValue } from "react-native-reanimated";
