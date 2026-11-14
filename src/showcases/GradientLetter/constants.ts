@@ -1,0 +1,16 @@
+export const GradientLetter = {
+  LETTER: "K",
+  COPIES_COUNT: 40,
+  MAX_ROTATION: 80,
+  COPY_SPACING: 0.2,
+  ROTATION_STEP: 0.02,
+  PERSPECTIVE: 1200,
+
+  OUTLINE_COLOR: "#840b0b",
+  OUTLINE_WIDTH: 2,
+  OUTLINE_OPACITY: 0.55,
+
+  COLORS: ["#FF410B", "#F52236", "#DA1C79", "#9C21D7"],
+
+  BACKGROUND: "#000000",
+} as const;
