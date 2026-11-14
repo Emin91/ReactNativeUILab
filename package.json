@@ -1,22 +1,66 @@
 {
-  "name": "react-native-ui-lab",
-  "version": "1.0.0",
-  "main": "index.ts",
-  "dependencies": {
-    "expo": "~58.0.25",
-    "expo-status-bar": "~58.0.5",
-    "react": "19.3.0",
-    "react-native": "0.88.1"
-  },
-  "devDependencies": {
-    "@types/react": "~19.3.0",
-    "typescript": "~6.0.3"
-  },
-  "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
-  },
-  "private": true
+	"name": "react-native-ui-lab",
+	"version": "1.0.0",
+	"description": "A collection of creative React Native UI experiments, animations, interactions, and reusable components built with Expo.",
+	"author": "Emin Zeynalov",
+	"private": true,
+	"main": "index.ts",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Emin91/ReactNativeUILab.git"
+	},
+	"homepage": "https://github.com/Emin91/ReactNativeUILab#readme",
+	"bugs": {
+		"url": "https://github.com/Emin91/ReactNativeUILab/issues"
+	},
+	"keywords": [
+		"react-native",
+		"expo",
+		"typescript",
+		"ui",
+		"ui-components",
+		"animations",
+		"gestures",
+		"skia",
+		"showcase",
+		"react-native-reanimated"
+	],
+	"engines": {
+		"node": ">=22.13.0"
+	},
+	"scripts": {
+		"start": "expo start",
+		"android": "expo start --android",
+		"ios": "expo start --ios",
+		"web": "expo start --web"
+	},
+	"dependencies": {
+		"@expo/ui": "~58.0.28",
+		"@expo/vector-icons": "^15.0.2",
+		"@shopify/react-native-skia": "2.14.0",
+		"expo": "~58.0.25",
+		"expo-blur": "~58.0.6",
+		"expo-font": "~58.0.12",
+		"expo-haptics": "~58.0.8",
+		"expo-image": "~58.0.18",
+		"expo-linear-gradient": "~58.0.4",
+		"expo-linking": "~58.0.17",
+		"expo-router": "~58.0.31",
+		"expo-secure-store": "~58.0.3",
+		"expo-splash-screen": "~58.0.14",
+		"expo-status-bar": "~58.0.5",
+		"expo-system-ui": "~58.0.7",
+		"react": "19.3.0",
+		"react-dom": "19.3.0",
+		"react-native": "0.88.1",
+		"react-native-gesture-handler": "~3.3.0",
+		"react-native-reanimated": "4.7.1",
+		"react-native-safe-area-context": "~5.11.1",
+		"react-native-svg": "15.16.0",
+		"react-native-worklets": "0.13.0"
+	},
+	"devDependencies": {
+		"@types/react": "~19.3.0",
+		"typescript": "~6.0.3"
+	}
 }
