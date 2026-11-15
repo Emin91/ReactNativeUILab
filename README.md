@@ -6,8 +6,11 @@ React Native UI Lab is an open-source collection of UI experiments. Each showcas
 
 ## ✨ Experiments
 
+A growing collection of UI experiments. Each example links directly to its source code.
+
 1. **[Glowing Lines](src/showcases/GlowingLines/index.tsx)** — Interactive glowing strings with physics-based motion.
 2. **[Gradient Letter](src/showcases/GradientLetter/index.tsx)** — Layered 3D gradient letter with swipe interactions.
+3. **[Elastic Ruler](src/showcases/ElasticRuler/index.tsx)** — Interactive ruler with elastic deformation, spring physics, and dynamic glow effects.
 
 ## 🚀 Getting Started
 
